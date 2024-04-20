@@ -9,6 +9,8 @@ import datetime
 from discord import app_commands
 from keep_alive import keep_alive
 
+keep_alive()
+
 intents = discord.Intents.all()
 intents.members = True
 bot = commands.Bot(command_prefix="/", intents=intents)
